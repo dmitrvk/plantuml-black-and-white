@@ -1,0 +1,48 @@
+skinparam dpi 150
+skinparam monochrome true
+skinparam style strictuml
+
+skinparam defaultFontName Roboto
+
+skinparam activityBackgroundColor white
+skinparam activityDiamondBackgroundColor white
+skinparam actorBackgroundColor white
+skinparam classAttributeIconSize 0
+skinparam classBackgroundColor white
+skinparam cloudBackgroundColor white
+skinparam componentBackgroundColor white
+skinparam databaseBackgroundColor white
+skinparam fileBackgroundColor white
+skinparam interfaceBackgroundColor white
+skinparam genericDisplay old
+skinparam noteBackgroundColor white
+skinparam packageBackgroundColor white
+skinparam participantBackgroundColor white
+skinparam usecaseBackgroundColor white
+
+hide empty members
+
+<style>
+  arrow {
+    LineThickness 1
+  }
+
+  package {
+    LineThickness 1
+  }
+
+  jsonDiagram {
+    BackGroundColor White
+    LineThickness 1
+    RoundCorner 0
+
+    highlight {
+      BackGroundColor LightGray
+    }
+  }
+
+  wbsDiagram {
+    BackgroundColor White
+    LineThickness 1
+  }
+</style>

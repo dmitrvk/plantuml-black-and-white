@@ -1,7 +1,3 @@
-# plantuml
-PlantUML Black &amp; White Style
-
-```plantuml
 'PlantUML Online Editor: https://www.planttext.com/
 
 @startuml
@@ -14,4 +10,3 @@ PlantUML Black &amp; White Style
 A .> B
 
 @enduml
-```
