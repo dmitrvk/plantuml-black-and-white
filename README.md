@@ -3,7 +3,6 @@ PlantUML Black &amp; White Style
 
 * Only black and white colors
 * Roboto as the default font
-* `allowmixing` is enabled
 
 Official PlantUML guide: https://plantuml.com/en/guide
 

@@ -22,8 +22,6 @@ skinparam usecaseBackgroundColor white
 
 hide empty members
 
-allowmixing
-
 <style>
   arrow {
     LineThickness 1
