@@ -1,9 +1,9 @@
-# plantuml-black-and-white-style
+# plantuml-black-and-white
 
 Usage:
 
 ```plantuml
-!include https://raw.githubusercontent.com/dmitrvk/plantuml-black-and-white-style/main/base.puml
+!include https://raw.githubusercontent.com/dmitrvk/plantuml-black-and-white/main/base.puml
 ```
 
 Full example:
@@ -13,7 +13,7 @@ Full example:
 
 @startuml
 
-!include https://raw.githubusercontent.com/dmitrvk/plantuml/main/base.puml
+!include https://raw.githubusercontent.com/dmitrvk/plantuml-black-and-white/main/base.puml
 
 () A
 () B
