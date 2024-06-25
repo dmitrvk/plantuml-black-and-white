@@ -1,18 +1,12 @@
-# plantuml
-PlantUML Black &amp; White Style
+# plantuml-black-and-white-style
 
-* Only black and white colors
-* Roboto as the default font
-
-Official PlantUML guide: https://plantuml.com/en/guide
-
-## Usage
+Usage:
 
 ```plantuml
-!include https://raw.githubusercontent.com/dmitrvk/plantuml/main/base.puml
+!include https://raw.githubusercontent.com/dmitrvk/plantuml-black-and-white-style/main/base.puml
 ```
 
-Example:
+Full example:
 
 ```plantuml
 'PlantUML Online Editor: https://www.planttext.com/
@@ -29,9 +23,4 @@ A .> B
 @enduml
 ```
 
-To use another font:
-
-```plantuml
-!include ...
-skinparam defaultFontName Roboto Slab
-```
+![example](example.png)
