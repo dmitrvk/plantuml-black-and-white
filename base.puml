@@ -16,6 +16,7 @@ skinparam genericDisplay old
 skinparam noteBackgroundColor white
 skinparam packageBackgroundColor white
 skinparam participantBackgroundColor white
+skinparam queueBackgroundColor white
 skinparam rectangleBackgroundColor white
 skinparam usecaseBackgroundColor white
 
