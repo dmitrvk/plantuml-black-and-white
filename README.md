@@ -1,26 +1,35 @@
-# plantuml-black-and-white
+# PlantUML Black & White Style
 
 Usage:
 
 ```plantuml
-!include https://raw.githubusercontent.com/dmitrvk/plantuml-black-and-white/main/base.puml
-```
-
-Full example:
-
-```plantuml
-'PlantUML Online Editor: https://www.planttext.com/
+' diagram.puml
 
 @startuml
 
 !include https://raw.githubusercontent.com/dmitrvk/plantuml-black-and-white/main/base.puml
 
-() A
-() B
-
-A .> B
+...
 
 @enduml
 ```
 
-![example](example.png)
+or:
+
+```
+$ wget https://raw.githubusercontent.com/dmitrvk/plantuml-black-and-white/main/base.puml
+```
+
+and then:
+
+```plantuml
+' diagram.puml
+
+@startuml
+
+!include base.puml
+
+...
+
+@enduml
+```

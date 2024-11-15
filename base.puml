@@ -1,3 +1,5 @@
+' https://github.com/dmitrvk/plantuml-black-and-white
+
 skinparam dpi 150
 skinparam monochrome true
 skinparam style strictuml
