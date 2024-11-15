@@ -1,10 +1,6 @@
-# PlantUML Black & White Style
+# PlantUML - Черно-белый стиль оформления
 
-[Russian](./README.ru.md)
-
----
-
-Usage:
+Пример использования:
 
 ```plantuml
 ' diagram.puml
@@ -18,13 +14,13 @@ Usage:
 @enduml
 ```
 
-or:
+или:
 
 ```
 $ wget https://raw.githubusercontent.com/dmitrvk/plantuml-black-and-white/main/base.puml
 ```
 
-and then:
+затем:
 
 ```plantuml
 ' diagram.puml
