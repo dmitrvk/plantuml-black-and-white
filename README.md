@@ -5,7 +5,7 @@ Usage:
 ```plantuml
 @startuml
 
-!include https://raw.githubusercontent.com/dmitrvk/plantuml-black-and-white/main/base.puml
+!include https://raw.githubusercontent.com/dmitrvk/plantuml-black-and-white/main/puml-theme-bw.puml
 
 
 
@@ -15,7 +15,7 @@ Usage:
 or:
 
 ```
-wget https://raw.githubusercontent.com/dmitrvk/plantuml-black-and-white/main/base.puml
+wget https://raw.githubusercontent.com/dmitrvk/plantuml-black-and-white/main/puml-theme-bw.puml
 ```
 
 and then:
@@ -23,9 +23,11 @@ and then:
 ```plantuml
 @startuml
 
-!include base.puml
+!include puml-theme-bw.puml
 
 
 
 @enduml
 ```
+
+More on themes in PlantUML: https://plantuml.com/theme.
