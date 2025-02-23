@@ -1,26 +1,11 @@
-# PlantUML Black & White Style
+# PlantUML Black & White Theme
+
+This is a theme file for PlantUML diagramming tool.
 
 Usage:
 
 ```plantuml
-@startuml
-
 !theme bw from https://raw.githubusercontent.com/dmitrvk/plantuml-black-and-white/main
-
-
-@enduml
-```
-
-or:
-
-```plantuml
-@startuml
-
-!include https://raw.githubusercontent.com/dmitrvk/plantuml-black-and-white/main/puml-theme-bw.puml
-
-
-
-@enduml
 ```
 
 or download theme file:
@@ -35,10 +20,6 @@ and include it in your diagram:
 !theme bw from .
 ```
 
-or:
-
-```plantuml
-!include puml-theme-bw.puml
-```
+Online diagram editor: https://www.plantuml.com.
 
 More on themes in PlantUML: https://plantuml.com/theme.
