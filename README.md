@@ -20,6 +20,53 @@ and include it in your diagram:
 !theme bw from .
 ```
 
-Online diagram editor: https://www.plantuml.com.
+## Links
 
-More on themes in PlantUML: https://plantuml.com/theme.
+Online diagram editor: https://www.plantuml.com
+
+More on themes in PlantUML: https://plantuml.com/theme
+
+## Example
+
+![class-diagram](./examples/class-diagram.png)
+
+<details>
+<summary>Source code</summary>
+
+```plantuml
+@startuml
+
+!theme bw from https://raw.githubusercontent.com/dmitrvk/plantuml-black-and-white/main
+
+package package {
+  interface Interface {
+    +methodA()
+    +methodB()
+  }
+
+  class ClassA {
+    +fieldA()
+    -fieldB()
+    --
+    +methodA()
+    -methodB()
+    #methodC()
+  }
+
+  class ClassB {
+  }
+}
+
+A <-- I
+B <.. J
+C <|-- K
+D <|.. L
+E *-- M
+F o-- N
+G -- O
+H .. P
+
+@enduml
+```
+
+</details>

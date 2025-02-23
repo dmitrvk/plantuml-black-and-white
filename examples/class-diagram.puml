@@ -1,0 +1,33 @@
+@startuml
+
+!theme bw from https://raw.githubusercontent.com/dmitrvk/plantuml-black-and-white/main
+
+package package {
+  interface Interface {
+    +methodA()
+    +methodB()
+  }
+
+  class ClassA {
+    +fieldA()
+    -fieldB()
+    --
+    +methodA()
+    -methodB()
+    #methodC()
+  }
+
+  class ClassB {
+  }
+}
+
+A <-- I
+B <.. J
+C <|-- K
+D <|.. L
+E *-- M
+F o-- N
+G -- O
+H .. P
+
+@enduml
