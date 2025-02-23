@@ -22,12 +22,6 @@ and include it in your diagram:
 !theme bw from .
 ```
 
-## Links
-
-Online diagram editor: https://www.plantuml.com
-
-More on themes in PlantUML: https://plantuml.com/theme
-
 ## Example
 
 ![class-diagram](./examples/class-diagram.png)
@@ -72,3 +66,9 @@ H .. P
 ```
 
 </details>
+
+## Links
+
+Online diagram editor: https://www.plantuml.com
+
+More on themes in PlantUML: https://plantuml.com/theme
