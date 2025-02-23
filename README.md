@@ -2,7 +2,9 @@
 
 This is a theme file for PlantUML diagramming tool.
 
-Usage:
+## Usage
+
+Paste the following line right after the `@startuml` directive:
 
 ```plantuml
 !theme bw from https://raw.githubusercontent.com/dmitrvk/plantuml-black-and-white/main
