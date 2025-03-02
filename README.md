@@ -22,7 +22,7 @@ and include it in your diagram:
 !theme bw from .
 ```
 
-## Example
+## Examples
 
 ![class-diagram](./examples/class-diagram.png)
 
@@ -61,6 +61,35 @@ E *-- M
 F o-- N
 G -- O
 H .. P
+
+@enduml
+```
+
+</details>
+
+![sequence-diagram](./examples/sequence-diagram.png)
+
+<details>
+<summary>Source code</summary>
+
+```plantuml
+@startuml
+
+!theme bw from https://raw.githubusercontent.com/dmitrvk/plantuml-black-and-white/main
+
+autonumber
+
+actor actor
+boundary boundary
+collections collections
+control control
+database database
+entity entity
+participant participant
+queue queue
+
+actor -> database : text
+actor <-- participant
 
 @enduml
 ```
